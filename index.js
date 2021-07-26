@@ -38,6 +38,7 @@ app.post("/authenticate", (req, res) => {
 			console.log("User logged in successfully")
 		}
 		else {
+			res.redirect('/');
 			console.log("Authentication failed.");
 		}
 	    db.close();

@@ -24,8 +24,11 @@
 			#mapid {
 				height: 50%;
 				width: 75%;
+				margin-top: 5%;
+				margin-bottom: 5%;
 				margin-left: auto;
 				margin-right: auto;
+				
 			}
 		</style>
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
@@ -80,7 +83,7 @@
 		
 		<div class = "container center_div" id="gpsForm">
 
-			<p class="h3" style="text-align: center; "> Enter Lattitude And Longitude Or Mark A Location</p>
+			<p class="h3" style="text-align: center; margin:5%;"> Enter Lattitude And Longitude Or Mark A Location</p>
 			<form name="gpsCoordinates">
 
 				<div class="form-group">
@@ -92,7 +95,7 @@
 				</div>
 
 
-				<button type="button" class="btn btn-primary" id="findGpsCoordinate">Show ZipCode</button>
+				
 				
 				
 			   
@@ -104,8 +107,10 @@
 		</div>
 		
 		<div id="mapid"></div>
-		
-		<p class="h5" style="text-align: center; margin:5%;" id="res"></p>
+		<div  class="row justify-content-center">
+			<button type="button" class="btn btn-primary" id="findGpsCoordinate">Show ZipCode</button>
+		</div>
+		<p class="h6" style="text-align: center; margin:5%;" id="res"></p>
 	
 	</body>
 </html>
