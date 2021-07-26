@@ -1,4 +1,4 @@
-###How To Run
+### How To Run
 
 * Import the GeoSpatial data to MongoDB using `mongoimport --db GermanyDB -c Data --type json --file ~/Desktop/ReverseGeolocation/output.geojson --jsonArray`
 
@@ -7,7 +7,7 @@
 * `npm install` 
 * `node index.js`
 
-###Features:
+### Features:
 
 1) Log In - Allows an existing user to log in
 
